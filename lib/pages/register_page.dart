@@ -59,7 +59,7 @@ class RegisterPageState extends State<RegisterPage> {
                   children: <Widget>[
                      Text(
                         textAlign: TextAlign.center,
-                      "Créez votre compte maintenant pour discuter et explorer.",
+                      "Create your account now to chat and explore.",
                       style: TextStyle(
                         color: Colors.white10.withOpacity(.9),
                         fontSize: 15.0,
@@ -76,7 +76,7 @@ class RegisterPageState extends State<RegisterPage> {
                     TextFormField(
                       keyboardType: TextInputType.text,
                       decoration: textInputDecoration.copyWith(
-                        labelText: "Nom complet",
+                        labelText: "Full Name",
                         prefixIcon: const Icon(
                           Icons.person,
                           color: Color(0xffee7b64),
@@ -170,7 +170,7 @@ class RegisterPageState extends State<RegisterPage> {
                         width: MediaQuery.of(context).size.width,
                         child: Center(
                           child: Text(
-                            "S'inscrire",
+                            "Sign in",
                             style: TextStyle(
                               color: Colors.white.withOpacity(.9),
                               fontSize: 14.0,
@@ -184,14 +184,14 @@ class RegisterPageState extends State<RegisterPage> {
                       height: 20.0,
                     ),
                     Text.rich(TextSpan(
-                      text: "Vous avez dejà un compte?",
+                      text: "Already have an account?",
                       style: TextStyle(
                         color: Colors.white.withOpacity(.9),
                         fontSize: 15.0,
                       ),
                       children: <TextSpan>[
                         TextSpan(
-                            text: "Connectez-vous ici",
+                            text: "Log in here",
                             style: const TextStyle(
                               color: Color(0xffee7b64),
                               fontSize: 15.0,

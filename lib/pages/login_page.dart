@@ -43,7 +43,7 @@ class LoginPageState extends State<LoginPage> {
                             children: <Widget>[
                               Text(
                                   textAlign: TextAlign.center,
-                                "Connectez-vous maintenant pour voir de quoi ils parlent.",
+                                "Log in now to see what they are talking.",
                                 style: TextStyle(
                                   color: Colors.white10.withOpacity(.9),
                                   fontSize: 15.0,
@@ -129,7 +129,7 @@ class LoginPageState extends State<LoginPage> {
                                   width: double.infinity,
                                   child: Center(
                                     child: Text(
-                                      "Se connecter",
+                                      "Log in",
                                       style: TextStyle(
                                         color: Colors.white.withOpacity(.9),
                                         fontSize: 14.0,
@@ -143,14 +143,14 @@ class LoginPageState extends State<LoginPage> {
                                 height: 20.0,
                               ),
                               Text.rich(TextSpan(
-                                text: "Vous n'avez pas de compte?",
+                                text: "Don't have an account?",
                                 style: TextStyle(
                                   color: Colors.white.withOpacity(.9),
                                   fontSize: 15.0,
                                 ),
                                 children: <TextSpan>[
                                   TextSpan(
-                                      text: "Inscrivez-vous ici",
+                                      text: "Sign in here",
                                       style: const TextStyle(
                                         color: Color(0xffee7b64),
                                         fontSize: 15.0,
